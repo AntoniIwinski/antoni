@@ -17,11 +17,12 @@
             <p>Witaj! Miło nam, że odwiedziłeś nasz salon. Zapoznaj się z ofertą i sprawdź promocje!</p>
             <div>
                 <h3>Dziś promocja na strzyżenie włosów</h3>
-                <input type="radio" name="elo" value="krotkie">Krótkie
-                <input type="radio" name="elo" value="srednie">Średnie
-                <input type="radio" name="elo" value="poldlugie">Półdugie
-                <input type="radio" name="elo" value="dlugie">Długie
-                <input type="button" name="przycisk" value="Odkryj promocję">
+                <input id="kro" type="radio" name="elo" value="krotkie">Krótkie
+                <input id="sre" type="radio" name="elo" value="srednie">Średnie
+                <input id="pol" type="radio" name="elo" value="poldlugie">Półdugie
+                <input id="dlu" type="radio" name="elo" value="dlugie">Długie
+                <button onclick="Cena()">Odkryj promocję</button>
+                <p id="wynik"></p>
             </div>
         </section>
     </main>
@@ -51,4 +52,5 @@
         <p>Autor: 00000000000</p>
     </footer>
 </body>
+<script src="skrypt.js"></script>
 </html>
