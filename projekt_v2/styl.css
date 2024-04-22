@@ -1,0 +1,118 @@
+html, body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #ac6b53;
+  }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #44483d;
+}
+
+h2{
+  color: #d5c7ba;
+  font-size: 150%;
+}
+
+h1{
+  color: #d5c7ba;
+  font-size: 200%;
+  text-shadow: 4px 4px 5px #44483d;
+  margin-left: 30px;
+}
+
+.lewa {
+    margin-right: 10px; 
+}
+
+nav {
+    margin-left: auto; 
+    font-size: 200%;
+    padding: 20px;
+}
+
+nav ul {
+    
+    margin: 0;
+    text-align: right;
+  }
+  
+  nav li {
+    
+    display: inline-block;
+    margin-left: 20px;
+  }
+  nav li:hover{
+    text-decoration: underline #d5c7ba;
+  }
+
+a {
+    text-decoration: none;
+    color:#d5c7ba;
+  }
+
+footer {
+    width: 100%;
+    background-color: #44483d;
+    color:#d5c7ba;
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    font-size: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form{
+    margin-left: 30px;
+  }
+  input[type="email"]{
+    width: 15%;
+    height: 25px;
+    background-color: #d5c7ba;
+    border: 2px solid #44483d;
+  }
+
+  textarea {
+    width: 30%;
+    height: 150px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    border: 2px solid #44483d;
+    border-radius: 2px;
+    background-color: #d5c7ba;
+    resize: none;
+  }
+
+  button{
+    border: 2px solid #2f3d4c;
+    background-color: #32586e;
+    color: #f8f8f8;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 105%;
+  }
+  button:hover{
+    background-color: #2f3d4c;
+  } 
+  .opis{  
+    p{
+      color: #d5c7ba;
+      font-size: 140%;
+      text-shadow: 4px 4px 5px #44483d;
+      margin-left: 30px; 
+      width: 40%;
+    }
+  }
+
+  #Ludek {
+    position: absolute; 
+    top: 50%; 
+    left: 70%; 
+    transform: translate(-50%, -50%); 
+}
